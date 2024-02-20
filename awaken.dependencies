@@ -4,6 +4,10 @@
     "target_path": "kernel/xiaomi/sm6375"
   },
   {
+    "repository": "vendor_xiaomi_veux",
+    "target_path": "vendor/xiaomi/veux"
+  },
+  {
     "repository": "hardware_xiaomi",
     "target_path": "hardware/xiaomi"
   }
