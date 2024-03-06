@@ -18,6 +18,21 @@ $(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 # AOSP Recovery
 TARGET_USES_AOSP_RECOVERY := true
 
+# Google Recorder
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+
+# Google Assistant
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+
+#Pixel Charger
+USE_PIXEL_CHARGER := true
+
+#official
+AWAKEN_BUILD_TYPE := unofficial
+
+#face unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # BOOT_ANIMATION
 TARGET_BOOT_ANIMATION_RES := 1080
 
