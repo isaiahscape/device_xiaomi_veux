@@ -24,4 +24,8 @@ binder_call(system_app, wificond)
 allow system_app vendor_sysfs_battery_supply:dir { search };
 allow system_app vendor_sysfs_battery_supply:file { getattr open read };
 
+# Battery health
+allow system_app sysfs_battery_supply:dir search;
+allow system_app sysfs_battery_supply:file { read open getattr };
+
 r_dir_file(system_app, vendor_sysfs_battery_supply)
