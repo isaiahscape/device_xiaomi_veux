@@ -315,6 +315,10 @@ PRODUCT_PACKAGES += \
     SecureElement \
     com.android.nfc_extras
 
+# Overlay Notchbarkiller
+PRODUCT_PACKAGES += \
+    NotchBarKiller
+
 # OMX
 PRODUCT_PACKAGES += \
     libmm-omxcore \
