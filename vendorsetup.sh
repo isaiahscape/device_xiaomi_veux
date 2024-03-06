@@ -10,7 +10,7 @@ git clone https://gitlab.com/aswinop/vendor_xiaomi_veux-firmware.git vendor/xiao
 
 echo "Cloning Vendor..."
 # Vendor
-git clone https://gitlab.com/aswinop/vendor_xiaomi_veux vendor/xiaomi/veux
+git clone https://gitlab.com/isaiahscape/vendor_xiaomi_veux vendor/xiaomi/veux
 
 echo "Cloning hardware related stuff..."
 # Hardware
