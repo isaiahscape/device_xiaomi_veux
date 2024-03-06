@@ -2,7 +2,7 @@ echo "Cloning required stuffs..."
 
 echo "Cloning kernel..."
 # Kernal
-git clone https://github.com/aswinop/kernel_xiaomi_sm6375.git kernel/xiaomi/sm6375 --depth=1
+git clone https://github.com/dereference23/kernel_xiaomi_sm6375.git kernel/xiaomi/sm6375 --depth=1
 
 echo "Cloning Firmware tree..."
 # Firmware Tree
